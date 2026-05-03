@@ -2043,7 +2043,7 @@ export default function PentestRunbook() {
       {engagementPrompt.open && (
         <div style={{ position:"fixed", inset:0, background:"rgba(2,6,10,0.78)", display:"flex", alignItems:"center", justifyContent:"center", zIndex:70, padding:20 }}>
           <div style={{ width:"min(460px, 100%)", background:"#050a0f", border:"1px solid #153144", borderRadius:8, boxShadow:"0 12px 40px rgba(0,0,0,0.45)", padding:18 }}>
-            <div style={{ color:"#7fd7ff", fontSize:12, letterSpacing:"0.08em", marginBottom:8, fontWeight:700 }}>NAME THIS ENGAGEMENT</div>
+            <div style={{ color:"#7fd7ff", fontSize:12, letterSpacing:"0.08em", marginBottom:8, fontWeight:700 }}>NAME OF ENGAGEMENT</div>
             <div style={{ color:"#87a4b7", fontSize:10, marginBottom:12 }}>
               Give this pentest engagement a name before setting target details.
             </div>
